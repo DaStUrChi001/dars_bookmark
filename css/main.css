@@ -107,3 +107,79 @@ a {
     border: 2px solid #242A45;
     background-color: #fff;
 }
+.future-container {
+    margin-top: 200px;
+}
+.wrapper {
+    margin-left: 185px;
+    text-align: center;
+}
+.future-info {
+    width: 540px;
+    margin-left: 95px;
+}
+.name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+}
+.text {
+    margin: 0;
+    margin-top: 16px;
+}
+.button-list {
+    width: 730px;
+    margin: 72px 0px;
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+}
+.speedy, .easy {
+    margin-left: 100px;
+}
+.easy:hover {
+    color: rgba(250, 89, 89, 1);
+}
+.red-line {
+    width: 243px;
+    margin-top: 27px;
+    border: 1px solid rgba(250, 89, 89, 1);
+    background-color: rgba(250, 89, 89, 1);
+    
+}
+.line {
+    width: 730px;
+    border: 1px solid rgba(73, 93, 207, 0.20012);
+    background: rgba(73, 93, 207, 0.20012);
+}
+.wrapper-two {
+    display: flex;
+}
+.one-click {
+    width: 445px;
+    padding-top: 57px;
+    padding-left: 100px;
+}
+h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+}
+.data {
+    margin: 0;
+    margin-top: 16px;
+}
+.more {
+    margin-top: 32px;
+}
+.link-info {
+    width: 114px;
+    padding: 10px 24px;
+    border: 2px solid #5267DF;
+    background: #5267DF;
+    border-radius: 5px;
+    color: white;
+}
