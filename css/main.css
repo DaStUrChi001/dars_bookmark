@@ -1,0 +1,58 @@
+/*        BOOKMARK         */
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", "Arial", sans-serif;
+    color: rgba(36, 42, 69, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 171px;
+    padding-right: 171px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-container {
+    margin-top: 48px;
+    display: flex;
+}
+.nav-list {
+    display: flex;
+    margin: 0;
+    margin-left: 503px;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-item {
+    margin-left: 48px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: rgba(250, 89, 89, 1); 
+}
+.login .nav-link{
+    padding: 12px 34px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(250, 89, 89, 1);
+    border: 2px solid rgba(250, 89, 89, 1);
+    border-radius: 5px;
+}
+.login .nav-link:hover {
+    color: rgba(250, 89, 89, 1);
+    background-color: white;
+    border: 2px solid rgba(250, 89, 89, 1);
+}
