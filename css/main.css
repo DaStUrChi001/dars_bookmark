@@ -292,3 +292,84 @@ h5 {
 h5:hover {
     color: red;
 }
+/*       STAY-UP SECTION      */
+
+.stay-up-container {
+    margin-top: 150px;
+    padding: 58px 499px 74px 499px;
+    background-color: rgba(82, 103, 223, 1);
+}
+.big-wrapper {
+    width: 442px;
+    text-align: center;
+}
+.join {
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+.up-to-date {
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+.contact {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.email {
+    width: 300px;
+    margin: 0;
+    padding: 10px 113px 10px 20px;
+    color: rgba(36, 42, 69, 0.2501);
+    background-color: #fff;
+}
+.link {
+    width: 128px;
+    display: inline-block;
+    margin-left: 16px;
+    padding: 10px 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: rgba(250, 89, 89, 1);
+    border: 2px solid rgba(250, 89, 89, 1);
+}
+.link:hover {
+    color: rgba(250, 89, 89, 1);
+    background-color: #FFFFFF;
+}
+
+/*     FOOTER      */
+
+.footer-container {
+    padding: 32px 165px 18px 165px;
+    background-color: rgba(36, 42, 69, 1);
+}
+.footer {
+    display: flex;
+}
+.footer-item {
+    display: flex;
+    margin-left: 63px;
+}
+.footer-link {
+    margin-left: 46px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.footer-link:hover {
+    color: rgba(250, 89, 89, 1);
+}
+.logo {
+    display: flex;
+    margin-left: 515px;
+}
+.logo-img {
+    margin-left: 40px;
+}
