@@ -22,6 +22,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*     HEADER      */
+
 .header-container {
     margin-top: 48px;
     display: flex;
@@ -38,9 +41,11 @@ body {
     font-size: 13px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    color: #242A45;
 }
 a {
     text-decoration: none;
+    border-radius: 5px;
 }
 .nav-link:hover {
     color: rgba(250, 89, 89, 1); 
@@ -50,13 +55,15 @@ a {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(250, 89, 89, 1);
     border: 2px solid rgba(250, 89, 89, 1);
-    border-radius: 5px;
 }
 .login .nav-link:hover {
     color: rgba(250, 89, 89, 1);
     background-color: white;
     border: 2px solid rgba(250, 89, 89, 1);
 }
+
+/*      HERO SECTION        */
+
 .hero-container {
     display: flex;
     padding-top: 196px;
@@ -73,22 +80,18 @@ a {
     margin-top: 24px;
     margin-bottom: 0;
 }
-.link {
+.heading-link {
     display: flex;
     margin-top: 32px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.25px;
 }
-a {
-    text-decoration: none;
-}
 .chrome {
     padding: 10px 24px;
     color: rgba(255, 255, 255, 1);
     background: #5267DF;
     border: 2px solid #5267DF;
-    border-radius: 5px;
 }
 .chrome:hover {
     color: rgba(82, 103, 223, 1);
@@ -100,7 +103,6 @@ a {
     color: #242A45;
     background: #F7F7F7;
     border: 2px solid #F7F7F7;
-    border-radius: 5px;
     margin-left: 16px;
 }
 .firefox:hover {
@@ -108,6 +110,9 @@ a {
     border: 2px solid #242A45;
     background-color: #fff;
 }
+
+/*       FUTURE SECTION        */
+
 .future-container {
     margin-top: 200px;
 }
@@ -177,13 +182,19 @@ h3 {
     margin-top: 32px;
 }
 .link-info {
-    width: 114px;
+    display: inline-block;
     padding: 10px 24px;
     border: 2px solid #5267DF;
     background: #5267DF;
-    border-radius: 5px;
     color: white;
 }
+.link-info:hover {
+    color: #5267DF;
+    background-color: white;
+}
+
+/*      EXTENSION SECTION      */
+
 .extension-container {
     margin-top: 238px;
     padding: 0px 266px;
@@ -233,7 +244,6 @@ h4 {
     padding: 10px 35px;
     color: white;
     border: 2px solid #5267DF;
-    border-radius: 5px;
     background-color: #5267DF;
 }
 .add-install:hover {
@@ -247,4 +257,38 @@ h4 {
 .add-opera {
     margin-top: 80px;
     margin-left: 35px;
+}
+
+/*      QUESTION SECTION     */
+
+.question-container {
+    margin-top: 149px;
+    padding: 0px 450px;
+    text-align: center;
+}
+.FAQ {
+    width: 540px;
+}
+.FAQ-text {
+    margin-top: 16px;
+}
+.dropdown {
+    width: 540px;
+    margin-top: 56px;
+}
+.black-line {
+    border: 1px solid #242A45;
+    background: #242A45;
+}
+.answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+h5:hover {
+    color: red;
 }
